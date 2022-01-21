@@ -5,3 +5,4 @@
 3. Draw inner circles into the middle
 4. Have triangles on both sides of the circle 
 5. Draw inner triangles whose edges going to center of the canvas
+6. Fill the center gap with cool blue to give perspective
