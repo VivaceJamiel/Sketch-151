@@ -21,6 +21,9 @@ function draw() {
         line(0, i * 50, windowWidth, i * 50);   
     }
 
+    // Rectangle in middle
+    rect((windowWidth/2)-90, 0, 180, windowHeight);
+
     // Left Triangles
     triangle(windowWidth/2, windowHeight/2, 0, windowHeight-1, 0, 1);
     triangle(windowWidth/2, windowHeight/2, 0, windowHeight-2, 0, 2);
