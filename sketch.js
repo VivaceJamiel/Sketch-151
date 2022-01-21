@@ -16,9 +16,6 @@ z = 0;
 function draw() {
     clear();
 
-    line(0, 0, windowWidth, windowHeight);
-    line(0, windowHeight, windowWidth, 0);
-
     for (var i = 0; i < 31; i++) {
         line(i * 50, 0, i * 50, windowHeight);
         line(0, i * 50, windowWidth, i * 50);   
